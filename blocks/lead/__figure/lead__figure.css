@@ -1,0 +1,19 @@
+.lead__figure {
+  width: 984px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__figure {
+    width: 90%;
+  }  
+}
+@media screen and (max-width: 768px) {
+  .lead__figure {
+    width: 100%;
+  }  
+}
