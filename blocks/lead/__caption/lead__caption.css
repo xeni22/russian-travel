@@ -7,3 +7,14 @@
   text-transform: uppercase;
   align-self: start;
 }
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    width: 93.75%;
+    margin: 8px auto 0 auto;
+  }  
+}
+@media screen and (max-width: 425px) {
+  .lead__caption {
+    width: 90%;
+  }  
+}

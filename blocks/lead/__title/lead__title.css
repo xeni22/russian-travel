@@ -6,11 +6,21 @@
   line-height: 1.04;
   text-align: center;
 }
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1179px) {
   .lead__title {
-    max-width: 288px;
+    margin-top: 20px;
+  }  
+}
+@media screen and (max-width: 767px) {
+  .lead__title {
+    width: 93.75%;
     font-size: 40px;
     line-height: 1.1;
+  }  
+}
+@media (max-width: 426px) {
+  .lead__title {
+    width: 90%;
+    margin-top: 32px;
   }  
 }

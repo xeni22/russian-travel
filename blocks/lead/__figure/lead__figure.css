@@ -1,5 +1,6 @@
 .lead__figure {
   width: 984px;
+  margin: 0;
   position: relative;
   display: flex;
   flex-direction: column;
